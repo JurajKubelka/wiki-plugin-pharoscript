@@ -1,7 +1,7 @@
 {
-  "name": "wiki-plugin-code",
+  "name": "wiki-plugin-pharoscript",
   "version": "0.2.2",
-  "description": "Federated Wiki - Code Plug-in",
+  "description": "Federated Wiki - Pharo Script Plug-in",
   "keywords": [
     "wiki",
     "federated wiki",
@@ -22,6 +22,11 @@
       "name": "Paul Rodwell",
       "email": "paul.rodwell@btinternet.com",
       "url": "http://wiki-paul90.rhcloud.com"
+    },
+    {
+      "name": "Juraj Kubelka",
+      "email": "juraj.kubelka@icloud.com",
+      "url": "http://juraj-kubelka.cz"
     }
   ],
   "scripts": {
@@ -36,10 +41,10 @@
   "licenses": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fedwiki/wiki-plugin-code.git"
+    "url": "https://github.com/JurajKubelka/wiki-plugin-pharoscript.git"
   },
   "bugs": {
-    "url": "https://github.com/fedwiki/wiki-plugin-code/issues"
+    "url": "https://github.com/JurajKubelka/wiki-plugin-pharoscript/issues"
   },
   "engines": {
     "node": ">=0.10"
