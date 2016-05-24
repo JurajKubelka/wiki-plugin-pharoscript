@@ -1,8 +1,8 @@
 ###
- * Federated Wiki : Code Plugin
+ * Federated Wiki : Pharo Script Plugin
  *
  * Licensed under the MIT license.
- * https://github.com/fedwiki/wiki-plugin-code/blob/master/LICENSE.txt
+ * https://github.com/fedwiki/wiki-plugin-pharoscript/blob/master/LICENSE.txt
 ###
 
 escape = (str) ->
@@ -13,11 +13,11 @@ escape = (str) ->
 		.replace(/</g, '&lt;')
 		.replace(/>/g, '&gt;')
 
-class window.plugins.code
+class window.plugins.pharoscript
   load = (callback) ->
-    wiki.getScript '/plugins/code/prettify.js', callback
-    if (!$("link[href='/plugins/code/prettify.css']").length)
-    	$('<link href="/plugins/code/prettify.css" rel="stylesheet" type="text/css">').appendTo("head")
+    wiki.getScript '/plugins/pharoscript/prettify.js', callback
+    if (!$("link[href='/plugins/pharoscript/prettify.css']").length)
+    	$('<link href="/plugins/pharoscript/prettify.css" rel="stylesheet" type="text/css">').appendTo("head")
 
   @emit: (div, item) ->
     load -> div.append "<pre class='prettyprint'>#{prettyPrintOne(escape(item.text))}</pre>"
