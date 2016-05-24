@@ -1,4 +1,4 @@
-# Federated Wiki - Code Plugin
+# Federated Wiki - PharoScript Plugin
 
-This plugin formats and colors computer source code.
+This plugin formats and colors Pharo script source code.
 

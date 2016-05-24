@@ -4,7 +4,7 @@
     {
       "type": "paragraph",
       "id": "67037b432c4c1ca9",
-      "text": "This plugin formats and colors computer source code. "
+      "text": "This plugin formats and colors Pharo script source code. "
     },
     {
       "type": "html",
@@ -19,12 +19,12 @@
     {
       "type": "html",
       "id": "7b2c4920a95d0a13",
-      "text": "Choose <b>code</b> in the Factory plugin menu to create a code item. See [[About Factory Plugin]]."
+      "text": "Choose <b>PharoScript</b> in the Factory plugin menu to create a pharo script item. See [[About Factory Plugin]]."
     },
     {
       "type": "paragraph",
       "id": "bdd8146ac72f11f5",
-      "text": "See [https://github.com/fedwiki/wiki-plugin-code GitHub] for plugin source."
+      "text": "See [https://github.com/JurajKubelka/wiki-plugin-pharoscript GitHub] for plugin source."
     },
     {
       "type": "paragraph",
@@ -36,7 +36,7 @@
     {
       "type": "create",
       "item": {
-        "title": "About Code Plugin"
+        "title": "About PharoScript Plugin"
       },
       "date": 1351656457655
     },
@@ -55,7 +55,7 @@
       "item": {
         "type": "paragraph",
         "id": "67037b432c4c1ca9",
-        "text": "This plugin formats and colors computer source code. "
+        "text": "This plugin formats and colors Pharo script source code. "
       },
       "date": 1351656701849
     },
@@ -176,7 +176,7 @@
       "item": {
         "type": "paragraph",
         "id": "7b2c4920a95d0a13",
-        "text": "Choose <b>code</b> in the Factory plugin menu. See [[About Factory Plugin]]."
+        "text": "Choose <b>PharoScript</b> in the Factory plugin menu. See [[About Factory Plugin]]."
       },
       "date": 1351657356446
     },
@@ -186,7 +186,7 @@
       "item": {
         "type": "paragraph",
         "id": "7b2c4920a95d0a13",
-        "text": "Choose <b>code</b> in the Factory plugin menu to create a code item."
+        "text": "Choose <b>PharoScript</b> in the Factory plugin menu to create a pharo script item."
       },
       "date": 1351657379775
     },
@@ -212,7 +212,7 @@
       "item": {
         "type": "paragraph",
         "id": "7b2c4920a95d0a13",
-        "text": "Choose <b>code</b> in the Factory plugin menu to create a code item. Delete all code text to delete the item. See [[About Factory Plugin]]."
+        "text": "Choose <b>PharoScript</b> in the Factory plugin menu to create a pharo script item. Delete all code text to delete the item. See [[About Factory Plugin]]."
       },
       "date": 1351657402732
     },
@@ -222,7 +222,7 @@
       "item": {
         "type": "paragraph",
         "id": "7b2c4920a95d0a13",
-        "text": "Choose <b>code</b> in the Factory plugin menu to create a code item. See [[About Factory Plugin]]."
+        "text": "Choose <b>PharoScript</b> in the Factory plugin menu to create a pharo script item. See [[About Factory Plugin]]."
       },
       "date": 1351657418702
     },
@@ -296,7 +296,7 @@
       "item": {
         "type": "paragraph",
         "id": "bdd8146ac72f11f5",
-        "text": "See [https://github.com/fedwiki/wiki-plugin-code GitHub] for plugin source."
+        "text": "See [https://github.com/JurajKubelka/wiki-plugin-pharoscript GitHub] for plugin source."
       },
       "date": 1389106807836
     },
@@ -316,7 +316,7 @@
       "item": {
         "type": "html",
         "id": "7b2c4920a95d0a13",
-        "text": "Choose <b>code</b> in the Factory plugin menu to create a code item. See [[About Factory Plugin]]."
+        "text": "Choose <b>PharoScript</b> in the Factory plugin menu to create a pharo script item. See [[About Factory Plugin]]."
       },
       "date": 1418314556056
     }
