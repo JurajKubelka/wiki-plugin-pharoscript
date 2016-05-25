@@ -1,5 +1,5 @@
 {
-  "name": "wiki-plugin-pharoscript",
+  "name": "@jurajkubelka/wiki-plugin-pharoscript",
   "version": "0.2.2",
   "description": "Federated Wiki - Pharo Script Plug-in",
   "keywords": [
