@@ -34,10 +34,13 @@
     "prepublish": "grunt build"
   },
   "devDependencies": {
-    "grunt": "^1.3.0",
-    "grunt-contrib-coffee": "^0.13.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-git-authors": "^3.2.0"
+    "debug": ">=2.6.9",
+    "grunt": "^1.4.1",
+    "grunt-contrib-coffee": "^2.1.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-git-authors": "^3.2.0",
+    "minimatch": ">=3.0.2",
+    "qs": ">=6.0.4"
   },
   "licenses": "MIT",
   "repository": {

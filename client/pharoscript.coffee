@@ -14,12 +14,13 @@ escape = (str) ->
 		.replace(/>/g, '&gt;')
 
 class window.plugins.pharoscript
-  load = (callback) ->
-    wiki.getScript '/plugins/pharoscript/prettify.js', callback
-    if (!$("link[href='/plugins/pharoscript/prettify.css']").length)
-    	$('<link href="/plugins/pharoscript/prettify.css" rel="stylesheet" type="text/css">').appendTo("head")
+	load = (callback) ->
+		wiki.getScript '/plugins/pharoscript/prettify.js', callback
+		if (!$("link[href='/plugins/pharoscript/prettify.css']").length)
+			$('<link href="/plugins/pharoscript/prettify.css" rel="stylesheet" type="text/css">').appendTo("head")
 
-  @emit: (div, item) ->
-    load -> div.append "<pre class='prettyprint'>#{prettyPrintOne(escape(item.text))}</pre>"
-  @bind: (div, item) ->
-    load -> div.dblclick -> wiki.textEditor div, item
+	@emit: (div, item) ->
+		load -> div.append "<pre class='prettyprint'>#{prettyPrintOne(escape(item.text))}</pre>"
+	@bind: (div, item) ->
+		load -> div.dblclick -> wiki.textEditor div, item
+		
